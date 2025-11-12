@@ -35,7 +35,7 @@ pexpect==4.9.0
 pillow==11.3.0
 platformdirs==4.4.0
 prompt_toolkit==3.0.52
-proteofav==0.2.3
+-e git+https://github.com/bartongroup/ProteoFAV.git@2d389b935f8fa0fb1242549c2ae83145421dee02#egg=proteofav
 psutil==7.1.3
 ptyprocess==0.7.0
 pure_eval==0.2.3
@@ -56,6 +56,7 @@ stack-data==0.6.3
 tornado==6.5.2
 traitlets==5.14.3
 typing_extensions==4.15.0
+tzdata==2025.2
 url-normalize==2.2.1
 urllib3==2.5.0
 wcwidth==0.2.14
