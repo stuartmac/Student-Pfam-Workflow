@@ -1,6 +1,7 @@
 # Repo data pipeline
 files/structure_validation/*.csv
 files/pdbx/*.cif
+files/pdbx/*.pdb
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
