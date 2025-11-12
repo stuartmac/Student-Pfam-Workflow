@@ -12,7 +12,14 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "pip3 install --user -r requirements.txt && mkdir -p ~/.config/proteofav && cp proteofav/config.ini ~/.config/proteofav/config.ini"
+	"postCreateCommand": "pip3 install --user -r requirements.txt && mkdir -p ~/.config/proteofav && cp proteofav/config.ini ~/.config/proteofav/config.ini",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-toolsai.jupyter"
+			]
+		}
+	}
 
 	// Configure tool-specific properties.
 	// "customizations": {}
