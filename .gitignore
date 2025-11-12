@@ -2,6 +2,7 @@
 files/structure_validation/*.csv
 files/pdbx/*.cif
 files/pdbx/*.pdb
+proteofav/validation/*.xml
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
